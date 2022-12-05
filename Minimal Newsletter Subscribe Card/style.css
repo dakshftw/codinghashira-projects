@@ -1,0 +1,106 @@
+.wrapper {
+  min-height: 100vh;
+  color: #000;
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  background-color: #F9F9F9;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 1em;
+  max-width: 768px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 10px 30px #9870fd60;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1rem;
+  margin-bottom: 0.8em;
+}
+
+.container {
+  max-width: 400px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em 1em 0 0;
+}
+
+.img__container {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.title {
+  margin-bottom: 0.9em;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 0 2em;
+  margin-bottom: 1.8em;
+}
+
+.mail {
+  padding: 0.5em 0 0.5em 1.5em;
+  line-height: 3;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+  color: #111127;
+}
+
+:-ms-input-placeholder {
+  color: #111127;
+}
+
+::-ms-input-placeholder {
+  color: #111127;
+}
+
+::placeholder {
+  color: #111127;
+}
+
+.subscribe {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: #9970FD;
+  padding: 0.9em 0;
+  display: inline-block;
+  border: none;
+  border-radius: 0.5em;
+  width: 100%;
+  margin-bottom: 1.3em;
+}
