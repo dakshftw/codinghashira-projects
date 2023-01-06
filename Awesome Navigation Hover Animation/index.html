@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation List Hover Animation | CodingHashira</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <h1>CodingHashira</h1>
+        <div class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="navigation-menu">
+      <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Contact</a></li>
+      </nav>
+    </div>
+
+    <script>
+      $(".menu-icon").click(function () {
+        $(this).toggleClass("active");
+        $(".navigation-menu").toggleClass("active");
+        $(".menu-icon i").toggleClass("fa-times");
+      });
+    </script>
+  </body>
+</html>
