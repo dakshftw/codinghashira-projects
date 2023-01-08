@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .wrapper {
   min-height: 100vh;
   color: #000;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1rem;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -17,7 +23,7 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
-  box-shadow: 0px 10px 30px #9870fd60;
+  box-shadow: 0px 25px 90px #5b5b5b42;
 }
 
 .title {
@@ -94,9 +100,10 @@
 
 .subscribe {
   color: #fff;
+  cursor: pointer;
   font-size: 1.3rem;
   font-weight: 700;
-  background-color: #9970FD;
+  background-color: #9970fd;
   padding: 0.9em 0;
   display: inline-block;
   border: none;
